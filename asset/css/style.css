@@ -1,0 +1,120 @@
+
+.log{
+text-align: center;
+
+}
+
+.logo{
+width: 150px;
+height: 150px;
+}
+
+.one{
+    background-color: rgba(0, 0, 0, 0.884);
+}
+
+.texto{
+font-weight: bold;
+color: aliceblue;
+margin-top: 60px;
+}
+
+.texta{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+    margin-bottom: 50px;
+    }
+
+    .texti{
+        font-weight: bold;
+        color: rgb(11, 25, 73);
+        margin-top: 20px;
+       
+        }
+
+.p1{
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.p2{
+    color: black;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+
+  
+.custom-button {
+    background-color: white; /* Couleur de fond blanche */
+    color: orange; /* Couleur du texte en orange */
+    font-weight: bold;
+  }
+
+  .ligne{
+    height: 4px !important;
+    width: 150px;
+    color: darkorange;
+  }
+
+
+
+
+
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #f8f6f6;
+    width: 350px;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 8px;
+    box-shadow: 0 2px 4px rgba(32, 32, 32, 0.1);
+    height: 150px;
+  }
+  
+
+  .cardo {
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 0 8px;
+    margin-top: 25px;
+    height: 200px;
+  }
+
+  svg {
+    width: 60px;
+    height: 60px;
+    fill: #bb5a00;
+  }
+  
+.h5{
+    color: #f8f6f6;
+}
+
+.footer{
+    background-color: rgb(20, 20, 20);
+}
+
+.espace{
+    margin-top: 20px;
+}
+
+.b{
+  font-weight: bold;
+  color: seagreen;
+
+}
+  
+
+.l1{
+  color: black;
+  margin-top: 30px;
+}
