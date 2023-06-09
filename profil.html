@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-vkpfj2iDsJW8UE+O6GyL72wlXSWucwoa/76wvT2jvXklVslXHNW65+IyjZi+akXze7C9Lhz28KALxMOzZcH7RQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
@@ -37,11 +38,14 @@
                     <div class="row" style="margin-top: 50px;">
                         <div class="col-2">Nom</div>
                         <div class="col-1"></div>
-                        <div class="col-2" style="font-weight: bold;">USER</div>
+                        <div class="col-2" style="font-weight: bold;" id="user-text">USER</div>
                         <div class="col-5"></div>
-                        <div class="col-2" style="color: darkcyan;">Edit  <i class="fas fa-pen" style="color: darkcyan; margin-left: 10px;"></i></div>
-                       
+                        <div class="col-2" style="color: darkcyan;">
+                            <a href="#" id="edit-link">Edit</a> 
+                            <i class="fas fa-pen" style="color: darkcyan; margin-left: 10px;"></i>
+                        </div>
                     </div>
+                    
                     <hr>
                     <div class="row" style="margin-top: 50px;">
                         <div class="col-2">Prenom</div>
@@ -156,6 +160,21 @@
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        // Récupérer les éléments HTML pertinents
+var userText = document.getElementById("user-text");
+var editLink = document.getElementById("edit-link");
+
+// Ajouter un écouteur d'événement pour le clic sur "Edit" ou l'icône
+editLink.addEventListener("click", function(event) {
+    event.preventDefault(); // Empêcher le comportement par défaut du lien
+    var newUsername = prompt("Entrez le nouveau nom d'utilisateur :"); // Demander à l'utilisateur le nouveau nom d'utilisateur
+    if (newUsername !== null) { // Vérifier si l'utilisateur a saisi une valeur
+        userText.textContent = newUsername; // Mettre à jour le texte avec le nouveau nom d'utilisateur
+    }
+});
+
+    </script>
 </body>
 
 </html>
