@@ -153,6 +153,16 @@ label {
  margin-top: 40px;
 }
 
+.dang1{
+  background-color: rgba(255, 255, 255, 0);
+  border-color: #ff7300;
+  border-radius: 5px;
+  color: #ff7b00;
+  height: 40px;
+  width: 200px;
+  margin-top: 40px;
+ }
+
 .btn1{
   background-color: #a3575700;
   border-color: #000000;

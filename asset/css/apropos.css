@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+div{
+  height: 400px;
+  width: 800px;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.Gras {
+font-weight: bold; text-align: center;
+}
+
+.GrasGris{
+color: grey; font-size: 16px; font-weight: bold; text-align: center
+}
+
+
+
+.Textuelle {
+font-size: 2.5em;
+}
+
+td {
+background-color:grey
+}
+
+tr {
+background-color:black;color:white;}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  
+}
