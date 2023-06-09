@@ -100,7 +100,7 @@ margin-top: 60px;
 }
 
 .footer{
-    background-color: rgb(20, 20, 20);
+    background-color:darkblue;
 }
 
 .espace{
@@ -117,4 +117,54 @@ margin-top: 60px;
 .l1{
   color: black;
   margin-top: 30px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+
+.ya{
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 40%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+.dang{
+ background-color: rgb(255, 0, 0);
+ border-color: #ccc;
+ border-radius: 5px;
+ color: #e8eeef;
+ height: 40px;
+ width: 100px;
+ margin-top: 40px;
+}
+
+.btn1{
+  background-color: #a3575700;
+  border-color: #000000;
+  color: rgb(0, 0, 151);
+  height: 40px;
+  border-radius: 5px;
+}
+
+.btn2{
+  background-color: #a3575700;
+  border-color: #000000;
+  color: rgb(255, 136, 0);
+  height: 40px;
+  border-radius: 5px;
 }
